@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Nov 24 23:14:03 2021
+
+@author: Naufal Fadillah
+"""
+
+def menghitung_range():
+    print("PROGRAM MENGHITUNG JUMLAH RANGE")
+    b = input("masukan angka pertama:")
+    b = int (b)
+    input2=int(input('masukkan angka kedua:'))
+    sum = 0
+    for i in range(b, input2+1, 1):
+        sum = sum+i
+    print("Jumlah range adalah: ", sum )
+menghitung_range()
